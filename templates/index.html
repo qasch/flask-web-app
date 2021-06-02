@@ -18,6 +18,11 @@
 <h1>Unser toller Flask Blog</h1>
 
 <section class="">
+    {% for post in posts_html %}
+    <h2>{{ post['title'] }}</h2>
+    <p>{{ post['content'] }}</p>
+    <p>{{ post['created'] }}</p>
+    {% endfor %}
 </section>
 
 <footer>
