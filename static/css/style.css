@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background-color: #18191a;
+  color: #aeb1b4;
+}
+
+figure {
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 1.3em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: #808080;
+}
+
+nav a:hover {
+  background-color: rgb(100, 100, 100, 0.2);
+  color: #000;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+h1 {
+  color: rgb(200, 0, 200);
+  font-size: 1.5em;
+  font-weight: normal;
+  text-align: center;
+}
+
+h2 {
+  /*      RRGGBB*/
+  color: red;
+}
+
+h2.purpleish {
+  color: #D21D66;
+}
+
+h2.greenish {
+  color: #1ca923;
+}
+
+section {
+/* padding oben rechts unten links*/
+  padding: 1em 1.2em;
+}
+
+/* CSS Klasse */
+section.section-darker {
+  background-color: #2a2a2a;
+}
+
+section.section-lighter {
+  background-color: #333;
+}
+
+/* CSS ID */
+#border {
+
+}
+
+/*
+* {
+
+}
+
+
+html-element {
+
+}
+
+.name-der-klasse {
+  eigenschaft: wert;
+}
+
+#name-der-id {
+
+}
+*/
