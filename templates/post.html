@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h2>{% block title %} {{ post_html['title'] }} {% endblock %}</h2>
+    <p>{{ post_html['created'] }}</p>
+    <p>{{ post_html['content'] }}</p>
+
+{% endblock %}
